@@ -10,41 +10,28 @@ Taxes.taxRate = 0.06; // 住民税率
 
 var OpenSpending = OpenSpending || {};
 
-OpenSpending.identifier = 'yokohama_budget';
+OpenSpending.identifier = 'akashi_2012_kessan';
 OpenSpending.year = '2012';
 
 OpenSpending.Styles = OpenSpending.Styles || {};
 
 OpenSpending.Styles.Cofog = {
 
-  /* yokohama cofog */
-  '1': { icon: 'icons/helping-others.svg', color: '#C75746', bcolor: '#935B3B' },
-  '1-1': { icon: 'icons/helping-others.svg', color: '#C75746', bcolor: '#935B3B' },
-  '2': { icon: 'icons/schools.svg', color: '#C75746', bcolor: '#0AB971' },
-  '2-1': { icon: 'icons/pre-school.svg', color: '#C75746', bcolor: '#0AB971' },
-  '2-2': { icon: 'icons/education.svg', color: '#C75746', bcolor: '#0AB971' },
-  '3': { icon: 'icons/economy-tourism.svg', color: '#C75746', bcolor: '#4E6D00' },
-  '3-1': { icon: 'icons/dollar.svg', color: '#C75746', bcolor: '#4E6D00' },
-  '3-2': { icon: 'icons/harbor.svg', color: '#C75746', bcolor: '#4E6D00' },
-  '3-3': { icon: 'icons/culture.svg', color: '#C75746', bcolor: '#4E6D00' },
-  '4': { icon: 'icons/our-streets.svg', color: '#C75746', bcolor: '#D33673' },
-  '4-1': { icon: 'icons/farms.svg', color: '#C75746', bcolor: '#D33673' },
-  '4-2': { icon: 'icons/street-lights.svg', color: '#C75746', bcolor: '#D33673' },
-  '4-3': { icon: 'icons/housing.svg', color: '#C75746', bcolor: '#D33673' },
-  '5': { icon: 'icons/environment.svg', color: '#C75746', bcolor: '#2A3A03' },
-  '5-1': { icon: 'icons/tree.svg', color: '#C75746', bcolor: '#2A3A03'  },
-  '5-2': { icon: 'icons/wind.svg', color: '#C75746', bcolor: '#2A3A03'  },
-  '6': { icon: 'icons/civilian-action.svg', color: '#C75746', bcolor: '#EC2406' },
-  '6-1': { icon: 'icons/civilian-action.svg', color: '#C75746', bcolor: '#EC2406' },
-  '7': { icon: 'icons/traffic-watersup.svg', color: '#C75746', bcolor: '#938626' },
-  '7-1': { icon: 'icons/traffic-watersup.svg', color: '#C75746', bcolor: '#938626' },
-  '8': { icon: 'icons/government.svg', color: '#C75746', bcolor: '#C75746' },
-  '8-1': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#C75746' },
-  '8-2': { icon: 'icons/government.svg', color: '#C75746', bcolor: '#C75746' },
-  '9': { icon: 'icons/garbage.svg', color: '#C75746', bcolor: '#D33673' },
-  '9-1': { icon: 'icons/garbage.svg', color: '#C75746', bcolor: '#D33673' },
-  '10': { icon: 'icons/order-safety.svg', color: '#C75746', bcolor: '#790586' },
-  '10-1': { icon: 'icons/order-safety.svg', color: '#C75746', bcolor: '#790586' }
+  /* akashi cofog */
+  '2012100': { icon: 'icons/helping-others.svg', color: '#C75746', bcolor: '#935B3B' },
+  '2012101': { icon: 'icons/helping-others.svg', color: '#C75746', bcolor: '#935B3B' },
+  '2012200': { icon: 'icons/public-debt.svg', color: '#C75746', bcolor: '#0AB971' },
+  '2012201': { icon: 'icons/public-debt.svg', color: '#C75746', bcolor: '#0AB971' },
+  '2012300': { icon: 'icons/education.svg', color: '#C75746', bcolor: '#4E6D00' },
+  '2012301': { icon: 'icons/education.svg', color: '#C75746', bcolor: '#4E6D00' },
+  '2012400': { icon: 'icons/construction.svg', color: '#C75746', bcolor: '#D33673' },
+  '2012401': { icon: 'icons/construction.svg', color: '#C75746', bcolor: '#D33673' },
+  '2012500': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#2A3A03' },
+  '2012501': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#2A3A03'  },
+  '2012600': { icon: 'icons/health.svg', color: '#C75746', bcolor: '#EC2406' },
+  '2012601': { icon: 'icons/health.svg', color: '#C75746', bcolor: '#EC2406' },
+  '2012700': { icon: 'icons/money.svg', color: '#C75746', bcolor: '#938626' },
+  '2012701': { icon: 'icons/money.svg', color: '#C75746', bcolor: '#938626' }
 };
 
 
